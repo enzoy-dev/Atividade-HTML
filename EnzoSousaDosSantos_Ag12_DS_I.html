@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Define o idioma e a estrutura do documento. -->
+<html lang="pt-BR">
+<head>
+    <!-- Permite acentos e adapta a página às telas menores. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título exibido na aba do navegador. -->
+    <title>Meus sites favoritos</title>
+    <!-- Estilos da página e das imagens locais. -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f1f5f9; color: #172033; }
+        header { background: #183b56; color: white; padding: 28px 20px; text-align: center; }
+        header h1 { font-size: 28px; margin: 0; }
+        main { max-width: 1000px; margin: 24px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        section { background: white; padding: 20px; border-radius: 12px; text-align: center; }
+        section h1 { font-size: 23px; margin: 0 0 16px; }
+        img { display: block; width: 100%; height: auto; border-radius: 8px; }
+        section > a { display: inline-block; margin-top: 16px; color: #174ea6; }
+        a:focus-visible { outline: 3px solid #bd6500; outline-offset: 4px; }
+    </style>
+</head>
+<body>
+    <!-- Título principal com o nome do estudante. -->
+    <header><h1>Meus sites favoritos: Enzo Sousa dos Santos</h1></header>
+    <main>
+        <!-- Nome do site acima da imagem; link abaixo dela. -->
+        <section aria-label="Google">
+            <h1>Google</h1>
+            <!-- Imagem na mesma pasta do HTML, também com link opcional. -->
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><img src="google.svg" alt="Imagem representativa do site Google" width="400" height="150"></a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Acessar Google</a>
+        </section>
+        <!-- Nome do site acima da imagem; link abaixo dela. -->
+        <section aria-label="YouTube">
+            <h1>YouTube</h1>
+            <!-- Imagem na mesma pasta do HTML, também com link opcional. -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="youtube.svg" alt="Imagem representativa do site YouTube" width="400" height="150"></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Acessar YouTube</a>
+        </section>
+        <!-- Nome do site acima da imagem; link abaixo dela. -->
+        <section aria-label="Wikipédia">
+            <h1>Wikipédia</h1>
+            <!-- Imagem na mesma pasta do HTML, também com link opcional. -->
+            <a href="https://pt.wikipedia.org/" target="_blank" rel="noopener noreferrer"><img src="wikipedia.svg" alt="Imagem representativa do site Wikipédia" width="400" height="150"></a>
+            <a href="https://pt.wikipedia.org/" target="_blank" rel="noopener noreferrer">Acessar Wikipédia</a>
+        </section>
+        <!-- Nome do site acima da imagem; link abaixo dela. -->
+        <section aria-label="GitHub">
+            <h1>GitHub</h1>
+            <!-- Imagem na mesma pasta do HTML, também com link opcional. -->
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="github.svg" alt="Imagem representativa do site GitHub" width="400" height="150"></a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Acessar GitHub</a>
+        </section>
+        <!-- Nome do site acima da imagem; link abaixo dela. -->
+        <section aria-label="Duolingo">
+            <h1>Duolingo</h1>
+            <!-- Imagem na mesma pasta do HTML, também com link opcional. -->
+            <a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer"><img src="duolingo.svg" alt="Imagem representativa do site Duolingo" width="400" height="150"></a>
+            <a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer">Acessar Duolingo</a>
+        </section>
+    </main>
+</body>
+</html>
